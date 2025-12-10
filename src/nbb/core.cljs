@@ -673,7 +673,35 @@
                                'INamed (sci/copy-var INamed core-ns)
                                'ILookup (sci/copy-var ILookup core-ns)
                                'abs (sci/copy-var abs core-ns)
-                               'Cons cljs.core/Cons}
+                               'infinite? (sci/copy-var infinite? core-ns)
+                               'regexp? (sci/copy-var regexp? core-ns)
+                               'iterable? (sci/copy-var iterable? core-ns)
+                               'cloneable? (sci/copy-var cloneable? core-ns)
+                               'reduceable? (sci/copy-var reduceable? core-ns)
+                               'js-symbol? (sci/copy-var js-symbol? core-ns)
+                               'Cons cljs.core/Cons
+                               'List cljs.core/List
+                               'PersistentHashMap cljs.core/PersistentHashMap
+                               'PersistentHashSet cljs.core/PersistentHashSet
+                               'PersistentArrayMap cljs.core/PersistentArrayMap
+                               'PersistentTreeMap cljs.core/PersistentTreeMap
+                               'PersistentTreeSet cljs.core/PersistentTreeSet
+                               'Volatile cljs.core/Volatile
+                               'Repeat cljs.core/Repeat
+                               'Cycle cljs.core/Cycle
+                               'Iterate cljs.core/Iterate
+                               'IntegerRange cljs.core/IntegerRange
+                               'Range cljs.core/Range
+                               'IndexedSeq cljs.core/IndexedSeq
+                               'Subvec cljs.core/Subvec
+                               'ChunkedSeq cljs.core/ChunkedSeq
+                               'ChunkedCons cljs.core/ChunkedCons
+                               'TaggedLiteral cljs.core/TaggedLiteral
+                               'ExceptionInfo cljs.core/ExceptionInfo
+                               'Reduced cljs.core/Reduced
+                               'Throwable->map (sci/copy-var Throwable->map core-ns)
+                               'js-invoke (sci/copy-var js-invoke core-ns)
+                               'js-mod (sci/copy-var js-mod core-ns)}
                 'cljs.reader {'read-string (sci/copy-var edn/read-string (sci/create-ns 'cljs.reader))}
                 'clojure.main {'repl-requires (sci/copy-var
                                                repl-requires
